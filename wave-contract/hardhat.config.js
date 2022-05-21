@@ -6,7 +6,7 @@ module.exports = {
   solidity: "0.8.0",
   networks: {
     goerli: {
-      // WavePortal address:  0xb90FE557cec0d111B7a4b86f423Ae691A0a645a1
+      // WavePortal address:  0x364245611F4D21673A7DCbF3733a99B73E9C0301
       url: process.env.STAGING_ALCHEMY_KEY,
       accounts: [process.env.PRIVATE_KEY],
     },
